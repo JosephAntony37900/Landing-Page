@@ -8,7 +8,19 @@ import { CarruselComponent } from './carrusel/carrusel.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AnimeCardComponent } from './anime-card/anime-card.component';
 import { SectionTitleComponent } from './section-title/section-title.component';
+import { RouterModule, Routes } from '@angular/router';
+import { MasVistosComponent } from './mas-vistos/mas-vistos.component';
+import { EstrenosAnimesComponent } from './estrenos-animes/estrenos-animes.component';
+import { CategoriasComponent } from './categorias/categorias.component';
+import { DondeVerComponent } from './donde-ver/donde-ver.component';
 
+const router: Routes = [
+  {path: "", component: WelcomeComponent,},
+  {path: "vistos", component: MasVistosComponent},
+  {path: "estrenos", component: CarruselComponent},
+  {path: "categorias", component: CategoriasComponent},
+  {path: "ver", component: DondeVerComponent}
+]
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,11 +28,16 @@ import { SectionTitleComponent } from './section-title/section-title.component';
     CarruselComponent,
     WelcomeComponent,
     AnimeCardComponent,
-    SectionTitleComponent
+    SectionTitleComponent,
+    MasVistosComponent,
+    EstrenosAnimesComponent,
+    CategoriasComponent,
+    DondeVerComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(router),
   ],
   providers: [
     provideClientHydration()

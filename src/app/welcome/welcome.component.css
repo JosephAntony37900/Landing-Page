@@ -1,0 +1,57 @@
+.text-info-home h1, span{
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-info-home h1 {
+    font-size: 50px;
+}
+
+.text-info-home span{
+    font-size: 23px;
+}
+
+.text-info-home h2{
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-info-home {
+    padding-bottom: 80px;
+    border-bottom: 3px solid #00a2e8;
+}
+
+.description-info-home{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.start-text-home{
+    padding-bottom: 20px;
+    border-bottom: 3px solid #00a2e8;
+    
+}
+
+.start-text-home h1{
+font-size: 50px;
+}
+.start-text-home p{
+    font-size: 15px;
+}
+
+.start-text-home h1, p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: aliceblue;
+}
