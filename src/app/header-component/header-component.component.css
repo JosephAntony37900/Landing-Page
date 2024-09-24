@@ -1,0 +1,59 @@
+header {
+    background-color: #0f1015; /* Color de fondo del header */
+    padding: 1px 10px;
+    border-bottom: 3px solid #00a2e8; /* Línea azul debajo del header */
+  }
+  
+  /* Estilo para el logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    color: #00a2e8;
+    font-size: 35px;
+  }
+  
+  .logo-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Estilo para los links del menú */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-links li {
+    margin-left: 100px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #00a2e8; /* Color azul al pasar sobre los enlaces */
+  }
+  
+  /* Estilos responsivos para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav-links {
+      flex-direction: column;
+      text-align: center;
+    }
+    .nav-links li {
+      margin: 10px 0;
+    }
+  }
+  

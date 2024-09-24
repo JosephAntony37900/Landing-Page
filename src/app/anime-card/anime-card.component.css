@@ -1,0 +1,20 @@
+.anime-card {
+    border: 2px solid #5A189A;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  .anime-card:hover {
+    transform: scale(1.05);
+  }
+  img {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  p {
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  

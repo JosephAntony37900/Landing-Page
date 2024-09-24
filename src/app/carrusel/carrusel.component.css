@@ -1,0 +1,13 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    background: none;
+    color: #ffffff;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
