@@ -1,5 +1,4 @@
 
-
 .anime-card {
   border: 2px solid #5A189A;
   border-radius: 10px;
@@ -15,8 +14,8 @@
 
 .anime-img-container {
   position: relative;
-  width: 200px;
-  height: 300px;
+  width: 270px;
+  height: 400px;
 }
 
 img {
