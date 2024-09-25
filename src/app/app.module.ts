@@ -13,6 +13,7 @@ import { MasVistosComponent } from './mas-vistos/mas-vistos.component';
 import { EstrenosAnimesComponent } from './estrenos-animes/estrenos-animes.component';
 import { CategoriasComponent } from './categorias/categorias.component';
 import { DondeVerComponent } from './donde-ver/donde-ver.component';
+import { TopMejoresAnimesComponent } from './top-mejores-animes/top-mejores-animes.component';
 
 const router: Routes = [
   {path: "", component: WelcomeComponent,},
@@ -33,6 +34,7 @@ const router: Routes = [
     EstrenosAnimesComponent,
     CategoriasComponent,
     DondeVerComponent,
+    TopMejoresAnimesComponent,
   ],
   imports: [
     BrowserModule,
