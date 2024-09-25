@@ -64,6 +64,10 @@
  .text-start-v p{
     line-height: 1.8;
  }
+
+ .text-start-v h2{
+    font-size: 30px;
+ }
  .anime-card2-v{
      display: flex;
      justify-content: space-between;

@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
+    border-bottom: 3px solid #00a2e8;
   }
   button {
     background: none;
@@ -9,5 +11,17 @@
     border: none;
     font-size: 2rem;
     cursor: pointer;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: aliceblue;
+  text-align: center;
+  margin-bottom: 5%;
+  }
+
+  .carousel-cards {
+    display: flex; /* Para que las tarjetas se alineen horizontalmente */
+    gap: 20px; /* Espacio entre las tarjetas */
   }
   

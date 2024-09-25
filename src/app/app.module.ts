@@ -14,6 +14,7 @@ import { EstrenosAnimesComponent } from './estrenos-animes/estrenos-animes.compo
 import { CategoriasComponent } from './categorias/categorias.component';
 import { DondeVerComponent } from './donde-ver/donde-ver.component';
 import { TopMejoresAnimesComponent } from './top-mejores-animes/top-mejores-animes.component';
+import { StreamingCardComponent } from './streaming-card/streaming-card.component';
 
 const router: Routes = [
   {path: "", component: WelcomeComponent,},
@@ -35,6 +36,7 @@ const router: Routes = [
     CategoriasComponent,
     DondeVerComponent,
     TopMejoresAnimesComponent,
+    StreamingCardComponent,
   ],
   imports: [
     BrowserModule,

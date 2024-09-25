@@ -1,1 +1,19 @@
-<p>estrenos-animes works!</p>
+<div class="animes-container-es">
+    <h2>Proximos estrenos.</h2>
+    
+    <div *ngFor="let anime of animesTop" class="anime-card-es">
+      <h3>{{ anime.top }}. {{ anime.name }}</h3>
+
+      <div class="anime-card2-es"> 
+      <div class="anime-content-es">
+        <img [src]="anime.img" alt="{{ anime.name }} image" class="anime-img-es">
+        
+      </div>
+      <div class="anime-details-es">
+        <h4>Sinopsis</h4>
+        <p>{{ anime.sinopsis }}</p>
+        <p>{{anime.fechaEstreno}}</p>
+      </div>
+    </div>
+    </div>
+</div>
