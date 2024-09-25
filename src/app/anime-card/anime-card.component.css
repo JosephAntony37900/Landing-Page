@@ -1,3 +1,55 @@
+
+
+.anime-card {
+  border: 2px solid #5A189A;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.anime-card:hover {
+  transform: scale(1.05);
+}
+
+.anime-img-container {
+  position: relative;
+  width: 200px;
+  height: 300px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.anime-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Efecto gris */
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.anime-card:hover .anime-info {
+  opacity: 1;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/*
 .anime-card {
     border: 2px solid #5A189A;
     border-radius: 10px;
@@ -17,4 +69,4 @@
     color: #FFFFFF;
     font-weight: bold;
   }
-  
+  */
