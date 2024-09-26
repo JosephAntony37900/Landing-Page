@@ -12,6 +12,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin: 20px;
 }
 
 

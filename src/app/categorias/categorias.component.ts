@@ -42,7 +42,7 @@ export class CategoriasComponent {
     },
     {
       top: 5,
-      name: 'mecha',
+      name: 'Mecha',
       sinopsis: 'Animes centrados en robots gigantes y tecnología avanzada, combinando ciencia ficción y acción. Ejemplos: Gundam, Neon Genesis Evangelion.',
       content: 'Fecha de estreno: 2024',
       img: 'assets/categorys/mecha.jpeg',

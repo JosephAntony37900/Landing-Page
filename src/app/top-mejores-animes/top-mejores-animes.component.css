@@ -32,6 +32,9 @@
     text-align: center;
 }
 
+.anime-content{
+    margin: 20px;
+}
 .anime-img {
     border: 3px solid #5A189A;
     border-radius: 10px;
