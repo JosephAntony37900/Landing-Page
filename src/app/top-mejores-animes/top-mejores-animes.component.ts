@@ -2,27 +2,27 @@ import { Component } from '@angular/core';
 import { TopAnimes } from '../interfaces/top-animes';
 
 @Component({
-  selector: 'app-mas-vistos',
-  templateUrl: './mas-vistos.component.html',
-  styleUrl: './mas-vistos.component.css'
+  selector: 'app-top-mejores-animes',
+  templateUrl: './top-mejores-animes.component.html',
+  styleUrl: './top-mejores-animes.component.css'
 })
-export class MasVistosComponent {
+export class TopMejoresAnimesComponent {
   animesTop: TopAnimes[] = [
-    
     {
       top: 1,
-      name: 'Dragon Ball',
-      sinopsis: 'Dragon Ball Z es uno de los animes pioneros de la demográfica shounen. Además de haberse convertido en un clásico querido en todo el mundo, ha aumentado considerablemente la popularidad del género. La historia de Goku es explosiva y está llena de acción y aventura. Y mientras que la franquicia comenzó como una aventura de fantasía siguiendo a un joven que aprende las artes marciales en busca de las siete esferas del dragón, Dragon Ball Z se especializa en un entorno de acción y ciencia ficción digno de atención.',
-      content: 'Fecha de estreno: 2024',
-      img: 'assets/top/goku.png',
-      fechaEstreno: new Date('2024-10-10')
-    },{
-      top: 2,
       name: 'One Piece',
       sinopsis: 'One Piece tiene que ofrecernos cientos de episodios de acción con momentos cómicos y emocionales para un excelente balance. La historia sigue a Monkey D. Luffy que sueña con convertirse en el Rey Pirata. Para hacer esto, ecide ir en busca del mayor tesoro de la historia, el One Piece. Sin embargo, necesita su propia tripulación pirata para lograr esto. Y así comienza una aventura en alta mar con monstruos gigantes, piratas y marineros peligrosos.',
       content: 'Fecha de estreno: Finales de 2024',
       img: 'assets/top/one-piece.jpg',
       fechaEstreno: new Date('2024-12-01')
+    },
+    {
+      top: 2,
+      name: 'Dragon Ball',
+      sinopsis: 'Dragon Ball Z es uno de los animes pioneros de la demográfica shounen. Además de haberse convertido en un clásico querido en todo el mundo, ha aumentado considerablemente la popularidad del género. La historia de Goku es explosiva y está llena de acción y aventura. Y mientras que la franquicia comenzó como una aventura de fantasía siguiendo a un joven que aprende las artes marciales en busca de las siete esferas del dragón, Dragon Ball Z se especializa en un entorno de acción y ciencia ficción digno de atención.',
+      content: 'Fecha de estreno: 2024',
+      img: 'assets/top/goku.png',
+      fechaEstreno: new Date('2024-10-10')
     },
     {
       top: 3,

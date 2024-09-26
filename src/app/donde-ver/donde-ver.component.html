@@ -1,1 +1,9 @@
-<p>donde-ver works!</p>
+<h1>Donde ver los animes</h1>
+
+<div class="carousel-donde">
+  <button (click)="goPrevious()">&#9664;</button>
+  <div class="carousel-cards-D">
+    <app-anime-card *ngFor="let anime of getVisibleAnimes()" [animes]="anime"></app-anime-card>
+  </div>
+  <button (click)="goNext()">&#9654;</button>
+</div>
