@@ -7,5 +7,5 @@ import { EstrenosAnimes } from '../interfaces/estrenos-animes';
   styleUrl: './anime-card.component.css'
 })
 export class AnimeCardComponent {
-  @Input() animes!: { title: string, img: string };
+  @Input() animes!: EstrenosAnimes;
 }

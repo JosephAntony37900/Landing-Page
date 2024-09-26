@@ -1,0 +1,55 @@
+.animes-container-es{
+    color: aliceblue;
+ }
+ 
+ .anime-details-es{
+   padding: 4%;
+ }
+ .animes-container-es h2{
+     text-align: center;
+     font-size: 35px;
+     margin-bottom: 100px;
+  }
+ 
+ .anime-card-es h3{
+     font-size: 30px;
+     color: #5A189A;
+ }
+ 
+ .anime-details-es h4{
+     font-size: 35px;
+     margin-top: -125px;
+ }
+ 
+ .anime-details-es p{
+     line-height: 1.8;
+ }
+ 
+ .anime-card2-es{
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+ }
+ 
+ .anime-img-es {
+     border: 3px solid #5A189A;
+     border-radius: 10px;
+     padding: 0px;
+     text-align: center;
+     transition: transform 0.2s ease-in-out;
+     
+ }
+ 
+ .anime-img-es:hover {
+     transform: scale(1.05);
+   }
+ 
+ img {
+     width: 706px;
+     height: 400px;
+     border-radius: 70px;
+   }
+
+   .anime-content-es{
+    margin: 20px;
+   }
