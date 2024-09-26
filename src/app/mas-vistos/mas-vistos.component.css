@@ -29,6 +29,10 @@
     transform: scale(1.05);
   }
 
+  .img-start-v{
+    margin: 20px;
+  }
+
 .top-animes-container-v{
     color: aliceblue;
     
@@ -91,4 +95,8 @@
      width: 706px;
      height: 400px;
      border-radius: 70px;
+   }
+
+   .anime-content-v{
+    margin: 20px;
    }
