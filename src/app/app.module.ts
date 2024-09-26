@@ -15,7 +15,7 @@ import { CategoriasComponent } from './categorias/categorias.component';
 import { DondeVerComponent } from './donde-ver/donde-ver.component';
 import { TopMejoresAnimesComponent } from './top-mejores-animes/top-mejores-animes.component';
 import { FooterComponent } from './footer/footer.component';
-import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+//import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 const router: Routes = [
   {path: "", component: WelcomeComponent,},
@@ -46,7 +46,7 @@ const router: Routes = [
   ],
   providers: [
     provideClientHydration(),
-    {provide: LocationStrategy, useClass: HashLocationStrategy,}
+   // {provide: LocationStrategy, useClass: HashLocationStrategy,}
   ],
   bootstrap: [AppComponent]
 })
